@@ -62,6 +62,16 @@ color: #282c34;
   font-weight:inherit;
   font-style: italic;
 }
+.animated-img {
+  transition: all 0.5s ease;
+  margin: 20px;
+  border-radius: 15px;
+  position: relative;
+}
+.animated-img:hover {
+  transform: scale(1.2); /* grows 20% on hover */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* adds a nice shadow */
+}
 .btn{
   padding: 10px 20px;
   font-size: 16px;
@@ -74,4 +84,5 @@ color: #282c34;
 }
 .btn:hover{
   background-color:darkslateblue;
+  transform:scale(1.1);
 }
